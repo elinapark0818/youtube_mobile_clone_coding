@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto5display=swap"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube mobile</title>
+    <script
+            src="https://kit.fontawesome.com/2d323a629b.js"
+            crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+<!--Header-->
+<header>
+    <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+    </div>
+    <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis"></i>
+    </div>
+</header>
+<!--Video player-->
+    <section class="player">
+        <video controls src="video/video.mp4"></video>
+    </section>
+    <!--video Info-->
+    <section class="info">
+        <!--Metadata-->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#Dream</li>
+                <li>#Coding</li>
+                <li>#Ellie</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title clamp"
+                > Clone Coding : Youtube Mobile Website 따라 만들기 / 유튜브 모바일 웹화면 따라만들기 /
+                    엘리쌤과 함께하는 클론코딩
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <span class="views">100,000,000 views 1 minute ago</span>
+        </div>
+        <!--Action-->
+        <ul class="actions">
+        <li>
+            <button><i class="fas fa-thumbs-up"></i><span>1K</span></button>
+        </li>
+        <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+        </li>
+        <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+        </li>
+        <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+        </li>
+        <li>
+            <button>
+                <i class="fab fa-font-awesome-flag"></i><span>Report</span></button>
+        </li>
+        </ul>
+        <!--Channel Description-->
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/babyogu.png" alt="" />
+                <div class="info">
+                    <span class="name">엘리나가 꿈꾸는 코딩</span>
+                    <span class="subscribers">1,000,000 subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+    <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <div class="img">
+                    <img src="image/1.jpg" alt="">
+                </div>
+                <div class="info">
+                    <span class="title"
+                    >달걀값이 너무 비싸</span>
+                    <span class="channel">엘리나</span>
+                    <span class="view">79k views</span>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </div>
+            </li>
+            <li class="item">
+                <div class="img">
+                    <img src="image/2.jpg" alt="">
+                </div>
+                <div class="info">
+                <span class="title"
+                >주님께서는 말씀과 함께 계시고 항상 저와 함께하십니다.</span>
+                <span class="channel">엘리나</span>
+                <span class="view">40k views</span>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </div>
+            </li>
+            <li class="item">
+                <div class="img">
+                    <img src="image/3.jpg" alt="">
+                </div>
+                <div class="info">
+                <span class="title"
+                >너무 가까이 다가가면 뜨거워서 견디기 힘들 것이다. 적당한 거리를 두는 것은 중요하다</span>
+                    <span class="channel">엘리나</span>
+                <span class="view">12k views</span>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <div class="infoAndUpNext">
+
+    </div>
+<script defer src="main.js"></script>
+</body>
+</html>
